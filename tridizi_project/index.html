@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utopia - Learn from the Best</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="fixed w-full top-0 z-50 bg-transparent px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <div class="flex items-center space-x-3">
+                    <div class="logo">
+                        <img src="images/image_192.jpg" alt="logo not found">
+                    </div>
+                    <span class="text-white text-xl font-normal">Utopia</span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <button class="nav-button dropdown-toggle" id="instructorsBtn">
+                        Instructors
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <button class="nav-button dropdown-toggle" id="categoriesBtn">
+                        All Categories
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <button class="nav-button">View Plans</button>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="search-button">
+                    <img src="images/image_193.jpg" alt="search-button not found">
+                </button>
+                <button class="login-button">Login</button>
+                <button class="register-button">Register</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 space-y-6">
+                <h1 class="hero-title">
+                    Learn from the Best,<br>
+                    Become Your Best
+                </h1>
+                
+                <p class="hero-description">
+                    Start, switch, or advance your career with more than 5,800 courses, Professional Certificates, and
+                    degrees from world-class universities and companies.
+                </p>
+                <div class="separator"></div>
+                <div class="category-section">
+                    <h2 class="category-title">What brings you to Utopia today?</h2>
+                    <p class="category-subtitle">Choose as many as you want.</p>
+                    <div class="category-buttons" id="categoryContainer">
+                        <button class="category-button">Professional Skills</button>
+                        <button class="category-button">Musician</button>
+                        <button class="category-button">Become a Professional Tutor</button>
+                        <button class="category-button">Become a Great Musician</button>
+                        <button class="category-button">Become</button>
+                        <button class="category-button">Become a Chef</button>
+                        <button class="category-button">Designing Skills</button>
+                        <button class="category-button">Others</button>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-end">
+                <img src="images/image_191.jpg" alt="Student with books" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
